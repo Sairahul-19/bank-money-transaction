@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>  
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="logo.jpg" alt="logo">
+                </div>
+                <ul class="upper">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="customer.html">customer</a></li>
+                    <li><a href="">Login/Register</a></li>
+                </ul>
+            </div>
+        </header>  
+        <script src="bank.js"></script>      
+        <center>
+            <table id="tab1" border="5pts" style="width:100%; border-style: solid; height: 50%;">
+                <tr class="table-danger">
+                    <th>SR. No.</th>
+                    <th>Name</th>
+                    <th>E-mail ID</th>
+                    <th>Bank Balance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Poorna </td>
+                    <td>poorna@email.com</td>
+                    <td>
+                        <p id="poornaBankBalance">50000</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>sujeeth </td>
+                    <td>sujeeth@email.com</td>
+                    <td>
+                        <p id="sujeethBankBalance">24000</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Rahul </td>
+                    <td>Rahul@email.com</td>
+                    <td>
+                        <p id="RahulBankBalance">30000</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Ravi</td>
+                    <td>Ravi@email.com</td>
+                    <td>
+                        <p id="RaviBankBalance">40000</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>chandu</td>
+                    <td>chandu@email.com</td>
+                    <td>
+                        <p id="chanduBankBalance">60000</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Tarun</td>
+                    <td>tarun@email.com</td>
+                    <td>
+                        <p id="tarunBankBalance">100000</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>sonu</td>
+                    <td>sonu@email.com</td>
+                    <td>
+                        <p id="sonuBankBalance">56000</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>kishore</td>
+                    <td>kishore@email.com</td>
+                    <td>
+                        <p id="kishoreBankBalance">35000</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>deepak</td>
+                    <td>deepak@email.com</td>
+                    <td>
+                        <p id="deepakBankBalance">85000</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Surya</td>
+                    <td>surya@email.com</td>
+                    <td>
+                        <p id="suryaBankBalance">145000</p>
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+            whom do you want to transfer the amount
+            <table>
+                <tr>
+                    <td>debit from:</td>
+                    <td><input type="text" id="enterSName" ></td>
+                </tr>
+                <tr>
+                    <td>credit to:</td>
+                    <td><input type="text" id="enterName"></td>
+                </tr>
+                <tr>
+                    <td>Amount</td>
+                    <td><input type="text" id="enterAmount"></td>
+                </tr>
+            </table> 
+            <br>   
+            <input type="button" name="Transfer" value="Transfer" onclick="transfer()" style="width: 200px;">
+            <table id="tab2" border="3pts" style="width: 100%;">
+                <caption>TRANSACTION HISTORY</caption>
+                <tr>
+                    <th>SENDER</th>
+                    <th>RECIEVER</th>
+                    <th>AMOUNT TRANSFERED</th>
+                    <th>Transaction date</th>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>

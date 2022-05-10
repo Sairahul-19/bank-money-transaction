@@ -1,0 +1,44 @@
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+
+}
+header{
+    background-color: white;
+}
+.upper{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+.upper li{
+    display: inline-block;
+}
+.upper li a{
+    color: #000;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+.upper li a:hover{
+    background:#000;
+    color: #fff;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+.comp{
+    float: left ;
+}
+#tab2{
+    border-collapse: collapse ;
+    width: 100%;
+    margin: 50px auto;
+    background-color: azure;
+}
+    
